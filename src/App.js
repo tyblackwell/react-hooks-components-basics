@@ -7,8 +7,11 @@ function App() {
     <div>
       <Article />
       <Comment />
+      <Spleen />
     </div>
   );
 }
+
+const Spleen = () => <div>This is a test</div>;
 
 export default App;
